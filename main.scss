@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 320px;
+    background-image: url(../img/PK_Textures/colorless.png);
+    background-size: cover;
+    color: black;
+
+
+    .card {
+        width: 300px;
+        height: 420px;
+        background-image: url(../img/PK_Textures/grass.png);
+        border: .5rem solid hsl(54, 99%, 66%);
+        border-radius: .5rem;
+
+        .superior {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0.75rem 0 .75rem;
+            line-height: 16px;
+            margin-top: 1rem;
+
+            .name {
+                font-weight: 700;
+                text-transform: capitalize;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+
+            .div {
+                display: flex;
+
+                .HP {
+                    color: RED;
+                    font-size: 500;
+                }
+
+                .icon {
+                    padding-left: 0.25rem;
+                    width: 16px;
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .Pokemon-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            border: .25rem solid gold;
+            width: 270px;
+            height: 150px;
+            background-color: white;
+
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+        }
+
+        .leyenda {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.7rem;
+            margin-bottom: 1rem;
+
+            .type {
+                padding-left: 0.5rem;
+            }
+
+            .size {
+                display: flex;
+                padding-right: .75rem;
+                padding-top: .25rem;
+                font-style: italic;
+
+            }
+
+
+        }
+
+        .habilidades {
+
+            .atack {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid black;
+                padding-bottom: .5rem;
+                margin: 1.5rem 1rem;
+                text-transform: capitalize;
+                font-weight: 500;
+
+                p {
+                    padding-left: 1.5rem;
+                }
+            }
+
+            .defense {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border-bottom: 1px solid black;
+                padding-bottom: .5rem;
+                margin: 1.5rem 1rem;
+                text-transform: capitalize;
+                font-weight: 500;
+
+                p {
+                    padding-left: 1.5rem;
+                }
+            }
+        }
+
+    }
+
+    .foot {
+        display: flex;
+        justify-content: flex-end;
+        font-weight: 700;
+        font-style: italic;
+
+        .id {
+            font-size: 0.75rem;
+            margin-bottom: 0;
+            padding-top: 3rem;
+            padding-right: 0.75rem;
+        }
+    }
+}

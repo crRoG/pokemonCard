@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  font-family: "Cabin", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 320px;
+  background-image: url(../img/PK_Textures/colorless.png);
+  background-size: cover;
+  color: black;
+}
+.container .card {
+  width: 300px;
+  height: 420px;
+  background-image: url(../img/PK_Textures/grass.png);
+  border: 0.5rem solid hsl(54deg, 99%, 66%);
+  border-radius: 0.5rem;
+}
+.container .card .superior {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.75rem 0 0.75rem;
+  line-height: 16px;
+  margin-top: 1rem;
+}
+.container .card .superior .name {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.container .card .superior p {
+  margin-bottom: 0;
+}
+.container .card .superior .div {
+  display: flex;
+}
+.container .card .superior .div .HP {
+  color: RED;
+  font-size: 500;
+}
+.container .card .superior .div .icon {
+  padding-left: 0.25rem;
+  width: 16px;
+  border-radius: 50%;
+}
+.container .card .Pokemon-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 0.25rem solid gold;
+  width: 270px;
+  height: 150px;
+  background-color: white;
+}
+.container .card .Pokemon-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.container .card .leyenda {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+.container .card .leyenda .type {
+  padding-left: 0.5rem;
+}
+.container .card .leyenda .size {
+  display: flex;
+  padding-right: 0.75rem;
+  padding-top: 0.25rem;
+  font-style: italic;
+}
+.container .card .habilidades .atack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5rem;
+  margin: 1.5rem 1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.container .card .habilidades .atack p {
+  padding-left: 1.5rem;
+}
+.container .card .habilidades .defense {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5rem;
+  margin: 1.5rem 1rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.container .card .habilidades .defense p {
+  padding-left: 1.5rem;
+}
+.container .foot {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+  font-style: italic;
+}
+.container .foot .id {
+  font-size: 0.75rem;
+  margin-bottom: 0;
+  padding-top: 3rem;
+  padding-right: 0.75rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
