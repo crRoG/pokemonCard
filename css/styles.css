@@ -111,12 +111,12 @@
   justify-content: flex-end;
   font-weight: 700;
   font-style: italic;
+  padding-right: 0.75rem;
 }
 .container .foot .id {
   font-size: 0.75rem;
   margin-bottom: 0;
   padding-top: 3rem;
-  padding-right: 0.75rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
