@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon</title>
+    <link rel="icon" type="image/x-icon" href="/img/pikachu.png">
     <script src="./js/jquery-3.6.1.min.js"></script>
     <script src="./js/app.js"></script>
     <link rel="stylesheet" href="./css/styles.css">
@@ -13,25 +14,25 @@
 
 <body>
     <div class="container">
-        <div class="card">
+        <div class="card" id="pokemonCard" style="background-image: url(../img/pokeText/grass.png); color:black;">
             <div class="superior">
                 <p class="name" id="name">chicorita</p>
                 <div class="div">
-                    <p class="HP"><span class="hp">45</span> HP</p>
+                    <p class="HP"><span class="hp" id="hp">45</span> HP</p>
                     <img src="./img/icons/grass.svg" width="16px" class="icon">
                 </div>
             </div>
             <div class="Pokemon-img">
-                <img src="./img/152.png">
+                <img src="#" id="pokeImg">
             </div>
             <div class="leyenda">
                 <div class="type">
-                    <img src="./img/Pokemon Type Icon 2.0/type_GRASS.png" height="24px" class="type1">
-                    <img src="" height="24px" class="type2">
+                    <img src="./img/pokeIcons/grass.png" height="24px" class="type1" id="type1">
+                    <img src="" height="24px" class="type2" id="type2">
                 </div>
                 <div class="size">
-                    <p class="heigth">Size: <span id="heigth">9</span> inch</p>
-                    <p class="weigth">, Weigth: <span id="weigth">64</span> lb.</p>
+                    <p class="heigth">Size: <span id="heigth">9</span> cm.</p>
+                    <p class="weigth">, Weigth: <span id="weigth">64</span> kg.</p>
                 </div>
             </div>
             <div class="habilidades">
@@ -40,16 +41,16 @@
                         <img src="./img/icons/fighting.svg" width="16px" class="icon">
                         <img src="./img/icons/fighting.svg" width="16px" class="icon">
                     </div>
-                    <p class="Special-Attack">overgrow</p>
-                    <span id="attack"></span>49
+                    <p class="Special-Attack" id="sAttack">overgrow</p>
+                    <span id="attack">49</span>
                 </div>
                 <div class="defense">
                     <div class="icon">
                         <img src="./img/icons/grass.svg" width="16px" class="icon">
                         <img src="./img/icons/grass.svg" width="16px" class="icon">
                     </div>
-                    <p class="Special-Attack">leaf-guard</p>
-                    <span id="attack"></span>65
+                    <p class="Special-Attack" id="sDefense">leaf-guard</p>
+                    <span id="defense">65</span>
                 </div>
             </div>
             <div class="descripcion">

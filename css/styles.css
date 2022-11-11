@@ -12,14 +12,13 @@
   align-items: center;
   min-height: 100vh;
   min-width: 320px;
-  background-image: url(../img/PK_Textures/colorless.png);
+  background-image: url(../img/background.jpg);
   background-size: cover;
-  color: black;
 }
 .container .card {
   width: 300px;
   height: 420px;
-  background-image: url(../img/PK_Textures/grass.png);
+  background-image: url(../img/pokeText/grass.png);
   border: 0.5rem solid hsl(54deg, 99%, 66%);
   border-radius: 0.5rem;
 }
@@ -90,9 +89,6 @@
   text-transform: capitalize;
   font-weight: 500;
 }
-.container .card .habilidades .atack p {
-  padding-left: 1.5rem;
-}
 .container .card .habilidades .defense {
   display: flex;
   justify-content: space-between;
@@ -102,9 +98,6 @@
   margin: 1.5rem 1rem 1rem 1rem;
   text-transform: capitalize;
   font-weight: 500;
-}
-.container .card .habilidades .defense p {
-  padding-left: 1.5rem;
 }
 .container .card .descripcion p {
   font-size: 0.7rem;
